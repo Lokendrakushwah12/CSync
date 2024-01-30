@@ -1,1 +1,1 @@
-# CSync
+# PIN-IT App
