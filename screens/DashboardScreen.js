@@ -1,20 +1,6 @@
 import { useState, useEffect } from "react";
 import * as React from "react";
-import {
-  View,
-  Text,
-  StyleSheet,
-  Button,
-  TouchableOpacity,
-  Image,
-  TextInput,
-  Switch,
-  Alert,
-  BackHandler,
-  SafeAreaView,
-  ScrollView,
-  FlatList,
-} from "react-native";
+import { View, Text, StyleSheet, Button, TouchableOpacity, Image, TextInput, Switch, Alert, BackHandler, SafeAreaView, ScrollView, FlatList } from "react-native";
 import { Linking } from "react-native";
 import FloatingButton from "./component/FloatingButton";
 import Logoutbtn from "../assets/images/log-in-outline";
@@ -167,7 +153,7 @@ const EventScreen = () => {
     <SafeAreaView style={stylesEvent.container}>
       <FlatList
         data={eventData}
-        keyExtractor={(item , id)=>{
+        keyExtractor={(item, id) => {
           return item.id
         }}
         renderItem={({ item }) => (

@@ -6,7 +6,7 @@ import AddEvent from "../../assets/images/addEvent";
 const FloatingButton = ({ onPress }) => {
   return (
     <TouchableOpacity style={styles.floatingButton} onPress={onPress}>
-    <AddEvent width={60} height={60} />
+      <AddEvent width={60} height={60} />
     </TouchableOpacity>
   );
 };
